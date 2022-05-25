@@ -73,11 +73,12 @@ it("test datatypes", () => {
   expect(people.length).toBe(4)
   expect(people[people.length - 1]).toBe('Bob')
 
+
+  //built in array method
   expect(Array.isArray(people)).toBe(true)
   expect(Array.isArray(123)).toBe(false)
 
 
-  // let cars = [tesla, outback]
 
 });
 
