@@ -3,6 +3,10 @@
     //write tests
 // }) 
 
+// run only one test file
+// yarn test operators.test.js 
+
+
 it('testing operators', () => {
   // + add , - minus , * times, / divide
   expect(1 + 1).toBe(2)
